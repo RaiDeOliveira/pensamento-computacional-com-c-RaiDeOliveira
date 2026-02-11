@@ -17,6 +17,12 @@ using namespace std;
 
 int main() {
     string nome;
+
+    cout << "QUAL É O SEU NOME?";
+
+    getline(cin, nome);
+
+    cout << "OLÁ " << nome;
     
     // TODO: Leia o nome do usuário
     
